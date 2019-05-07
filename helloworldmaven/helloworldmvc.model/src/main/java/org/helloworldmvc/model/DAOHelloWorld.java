@@ -14,7 +14,7 @@ public class DAOHelloWorld {
 		this.readFile();
 	}
 	
-	public void readFile() throws IOException {
+	private void readFile() throws IOException {
 		
 		BufferedReader buffer;
 		try {
